@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+  <card>
+    <left>Good</left>
+    <right>Bad</right>
+  </card>
+  <card>
+    <left>Highly addictive</left>
+    <right>Mildly addictive</right>
+  </card>
+  <card>
+    <left>Cold</left>
+    <right>Hot</right>
+  </card>
+  <card>
+    <left>Weird</left>
+    <right>Normal</right>
+  </card>
+  <card>
+    <left>Colorful</left>
+    <right>Colorless</right>
+  </card>
+  <card>
+    <left>High calorie</left>
+    <right>Low calorie</right>
+  </card>
+  <card>
+    <left>Feels good</left>
+    <right>Feels bad</right>
+  </card>
+  <card>
+    <left>Essential</left>
+    <right>Inessential</right>
+  </card>
+  <card>
+    <left>Expensive</left>
+    <right>Cheap</right>
+  </card>
+  <card>
+    <left>Overrated weapon</left>
+    <right>Underrated weapon</right>
+  </card>
+  <card>
+    <left>Common</left>
+    <right>Rare</right>
+  </card>
+  <card>
+    <left>Hard subject </left>
+    <right>Easy subject</right>
+  </card>
+  <card>
+    <left>Famous</left>
+    <right>Unknown</right>
+  </card>
+  <card>
+    <left>Easy to use</left>
+    <right>Difficult to use</right>
+  </card>
+  <card>
+    <left>Wired</left>
+    <right>Normal</right>
+  </card>
+  <card>
+    <left>Clean</left>
+    <right>Dirty</right>
+  </card>
+  <card>
+    <left>Requires skill</left>
+    <right>Requires luck</right>
+  </card>
+  <card>
+    <left>Flavorful</left>
+    <right>Flavorless</right>
+  </card>
+  <card>
+    <left>Fascinating topic</left>
+    <right>Boring topic</right>
+  </card>
+  <card>
+    <left>Good actors</left>
+    <right>Bad actor</right>
+  </card>
+  <card>
+    <left>Hipster</left>
+    <right>Basic</right>
+  </card>
+  <card>
+    <left>Safe job</left>
+    <right>Dangerous job</right>
+  </card>
+  <card>
+    <left>Sci-Fi</left>
+    <right>Fantasy</right>
+  </card>
+  <card>
+    <left>Formal</left>
+    <right>Casual</right>
+  </card>
+  <card>
+    <left>Overpaid</left>
+    <right>Underpaid</right>
+  </card>
+  <card>
+    <left>Wet</left>
+    <right>Dry</right>
+  </card>
+  <card>
+    <left>Overrated skill</left>
+    <right>Underrated skill</right>
+  </card>
+  <card>
+    <left>Encouraged</left>
+    <right>Forbidden</right>
+  </card>
+  <card>
+    <left>Happy song</left>
+    <right>Sad song</right>
+  </card>
+  <card>
+    <left>Durable</left>
+    <right>Fragile</right>
+  </card>
+  <card>
+    <left>Dork</left>
+    <right>Geek</right>
+  </card>
+  <card>
+    <left>Evil</left>
+    <right>Good</right>
+  </card>
+  <card>
+    <left>Best day of the year</left>
+    <right>Worst day of the year</right>
+  </card>
+  <card>
+    <left>Good habit</left>
+    <right>Bad habit</right>
+  </card>
+  <card>
+    <left>Dog person</left>
+    <right>Cat person</right>
+  </card>
+  <card>
+    <left>Openly love</left>
+    <right>Guilty pleasure</right>
+  </card>
+  <card>
+    <left>Talented</left>
+    <right>Untalented</right>
+  </card>
+  <card>
+    <left>Light</left>
+    <right>Dark</right>
+  </card>
+  <card>
+    <left>Overrated actor </left>
+    <right>Underrated actor-</right>
+  </card>
+  <card>
+    <left>Easy to find</left>
+    <right>Hard to find</right>
+  </card>
+  <card>
+    <left>Beautiful man</left>
+    <right>Ugly man</right>
+  </card>
+  <card>
+    <left>Easy to remember</left>
+    <right>Hard to remember</right>
+  </card>
+  <card>
+    <left>Highbrow</left>
+    <right>Lowbrow</right>
+  </card>
+  <card>
+    <left>Healthy</left>
+    <right>Unhealthy</right>
+  </card>
+  <card>
+    <left>Good man</left>
+    <right>Bad man</right>
+  </card>
+  <card>
+    <left>Historically irrelevant</left>
+    <right>Historically important</right>
+  </card>
+  <card>
+    <left>Hairy</left>
+    <right>Hairless</right>
+  </card>
+  <card>
+    <left>Flexible</left>
+    <right>Inflexible</right>
+  </card>
+  <card>
+    <left>Exotic pet</left>
+    <right>Normal pet</right>
+  </card>
+  <card>
+    <left>Extrovert</left>
+    <right>Introvert</right>
+  </card>
+  <card>
+    <left>Movie was better</left>
+    <right>Book was better</right>
+  </card>
+  <card>
+    <left>Good movie</left>
+    <right>Bad movie</right>
+  </card>
+  <card>
+    <left>Beautiful</left>
+    <right>Ugly</right>
+  </card>
+  <card>
+    <left>Happens suddenly</left>
+    <right>Happens slowly</right>
+  </card>
+  <card>
+    <left>Career</left>
+    <right>Job</right>
+  </card>
+  <card>
+    <left>Hated</left>
+    <right>Loved</right>
+  </card>
+  <card>
+    <left>The Dark Side of the Force</left>
+    <right>The Light Side of the Force</right>
+  </card>
+  <card>
+    <left>Good pizza topping</left>
+    <right>Bad pizza topping</right>
+  </card>
+  <card>
+    <left>Utopia</left>
+    <right>Dystopia</right>
+  </card>
+  <card>
+    <left>Immature person</left>
+    <right>Mature person</right>
+  </card>
+  <card>
+    <left>Overrated thing to own</left>
+    <right>Underrated thing to own</right>
+  </card>
+  <card>
+    <left>Nice person</left>
+    <right>Mean person</right>
+  </card>
+  <card>
+    <left>Adventure movie</left>
+    <right>Action movie</right>
+  </card>
+  <card>
+    <left>Good</left>
+    <right>Bad</right>
+  </card>
+  <card>
+    <left>Highly addictive</left>
+    <right>Mildly addictive</right>
+  </card>
+  <card>
+    <left>Cold</left>
+    <right>Hot</right>
+  </card>
+  <card>
+    <left>Weird</left>
+    <right>Normal</right>
+  </card>
+  <card>
+    <left>Colorful</left>
+    <right>Colorless</right>
+  </card>
+  <card>
+    <left>High calorie</left>
+    <right>Low calorie</right>
+  </card>
+  <card>
+    <left>Feels good</left>
+    <right>Feels bad</right>
+  </card>
+  <card>
+    <left>Essential</left>
+    <right>Inessential</right>
+  </card>
+  <card>
+    <left>Expensive</left>
+    <right>Cheap</right>
+  </card>
+  <card>
+    <left>Overrated weapon</left>
+    <right>Underrated weapon</right>
+  </card>
+  <card>
+    <left>Common</left>
+    <right>Rare</right>
+  </card>
+  <card>
+    <left>Sexy</left>
+    <right>Unsexy </right>
+  </card>
+  <card>
+    <left>Hard subject</left>
+    <right>Easy subject</right>
+  </card>
+  <card>
+    <left>Famous</left>
+    <right>Unknown</right>
+  </card>
+  <card>
+    <left>Easy to use</left>
+    <right>Difficult to use</right>
+  </card>
+  <card>
+    <left>Wired</left>
+    <right>Tired</right>
+  </card>
+  <card>
+    <left>Clean</left>
+    <right>Dirty</right>
+  </card>
+  <card>
+    <left>Requires skill</left>
+    <right>Requires luck</right>
+  </card>
+  <card>
+    <left>Flavorful</left>
+    <right>Flavorless</right>
+  </card>
+  <card>
+    <left>Fascinating topic</left>
+    <right>Boring topic</right>
+  </card>
+  <card>
+    <left>Good actor</left>
+    <right>Bad actor</right>
+  </card>
+  <card>
+    <left>Good</left>
+    <right>Bad</right>
+  </card>
+  <card>
+    <left>Highly addictive</left>
+    <right>Mildly addictive</right>
+  </card>
+  <card>
+    <left>Cold</left>
+    <right>Hot</right>
+  </card>
+  <card>
+    <left>Weird</left>
+    <right>Normal</right>
+  </card>
+  <card>
+    <left>Colorful</left>
+    <right>Colorless</right>
+  </card>
+  <card>
+    <left>High calorie</left>
+    <right>Low calorie</right>
+  </card>
+  <card>
+    <left>Feels good</left>
+    <right>Feels bad</right>
+  </card>
+  <card>
+    <left>Essential</left>
+    <right>Inessential</right>
+  </card>
+  <card>
+    <left>Expensive</left>
+    <right>Cheap</right>
+  </card>
+  <card>
+    <left>Overrated weapon</left>
+    <right>Underrated weapon</right>
+  </card>
+  <card>
+    <left>Common</left>
+    <right>Rare</right>
+  </card>
+  <card>
+    <left>Sexy</left>
+    <right>Unsexy </right>
+  </card>
+  <card>
+    <left>Hard subject -  Physics</left>
+    <right>Easy subject</right>
+  </card>
+  <card>
+    <left>Famous</left>
+    <right>Unknown</right>
+  </card>
+  <card>
+    <left>Easy to use</left>
+    <right>Difficult to use</right>
+  </card>
+  <card>
+    <left>Wired</left>
+    <right>Tired</right>
+  </card>
+  <card>
+    <left>Clean</left>
+    <right>Dirty</right>
+  </card>
+  <card>
+    <left>Requires skill</left>
+    <right>Requires luck</right>
+  </card>
+  <card>
+    <left>Flavorful</left>
+    <right>Flavorless</right>
+  </card>
+  <card>
+    <left>Good</left>
+    <right>Bad</right>
+  </card>
+  <card>
+    <left>Highly addictive</left>
+    <right>Mildly addictive</right>
+  </card>
+  <card>
+    <left>Cold</left>
+    <right>Hot</right>
+  </card>
+  <card>
+    <left>Weird</left>
+    <right>Normal</right>
+  </card>
+  <card>
+    <left>Colorful</left>
+    <right>Colorless</right>
+  </card>
+  <card>
+    <left>High calorie</left>
+    <right>Low calorie</right>
+  </card>
+  <card>
+    <left>Feels good</left>
+    <right>Feels bad</right>
+  </card>
+  <card>
+    <left>Essential</left>
+    <right>Inessential</right>
+  </card>
+  <card>
+    <left>Expensive</left>
+    <right>Cheap</right>
+  </card>
+  <card>
+    <left>Overrated weapon</left>
+    <right>Underrated weapon</right>
+  </card>
+  <card>
+    <left>Believable</left>
+    <right>Unbelievable</right>
+  </card>
+  <card>
+    <left>Classy</left>
+    <right>Trashy</right>
+  </card>
+  <card>
+    <left>Permanent</left>
+    <right>Temporary</right>
+  </card>
+  <card>
+    <left>Doesn&apos;t look like a person</left>
+    <right>Looks like a person</right>
+  </card>
+  <card>
+    <left>Tastes good</left>
+    <right>Tastes bad</right>
+  </card>
+  <card>
+    <left>Game</left>
+    <right>Sport</right>
+  </card>
+  <card>
+    <left>Cool</left>
+    <right>Uncool</right>
+  </card>
+  <card>
+    <left>Greatest living person</left>
+    <right>Worst living person</right>
+  </card>
+  <card>
+    <left>Overrated</left>
+    <right>Underrated</right>
+  </card>
+  <card>
+    <left>Clean food</left>
+    <right>Messy food</right>
+  </card>
+  <card>
+    <left>Ethical</left>
+    <right>Unethical</right>
+  </card>
+  <card>
+    <left>Good gift</left>
+    <right>Bad gift</right>
+  </card>
+  <card>
+    <left>Fashionable</left>
+    <right>Unfashionable</right>
+  </card>
+  <card>
+    <left>Terrorist</left>
+    <right>Freedom fighter</right>
+  </card>
+  <card>
+    <left>Forgiveable</left>
+    <right>Unforgiveable</right>
+  </card>
+  <card>
+    <left>Harmful</left>
+    <right>Harmless</right>
+  </card>
+  <card>
+    <left>Hygienic</left>
+    <right>Unhygienic</right>
+  </card>
+  <card>
+    <left>Good music</left>
+    <right>Bad music</right>
+  </card>
+  <card>
+    <left>Useful</left>
+    <right>Useless</right>
+  </card>
+  <card>
+    <left>art</left>
+    <right>Movie that Godzilla would ruin</right>
+  </card>
+  <card>
+    <left>Important</left>
+    <right>Unimportant</right>
+  </card>
+  <card>
+    <left>Hard to spell</left>
+    <right>Easy to spell</right>
+  </card>
+  <card>
+    <left>Virtue</left>
+    <right>Vice</right>
+  </card>
+  <card>
+    <left>Overrated musician</left>
+    <right>Underrated musician</right>
+  </card>
+  <card>
+    <left>Popular activity</left>
+    <right>Unpopular activity</right>
+  </card>
+  <card>
+    <left>Whole</left>
+    <right>Divided</right>
+  </card>
+  <card>
+    <left>Reliable</left>
+    <right>Unreliable</right>
+  </card>
+  <card>
+    <left>Hard to kill</left>
+    <right>Easy to kill</right>
+  </card>
+  <card>
+    <left>Stable</left>
+    <right>Unstable</right>
+  </card>
+  <card>
+    <left>Pointy animal</left>
+    <right>Round animal</right>
+  </card>
+  <card>
+    <left>Good TV show</left>
+    <right>Bad TV show</right>
+  </card>
+  <card>
+    <left>Traditionally feminine</left>
+    <right>Traditionally masculine</right>
+  </card>
+  <card>
+    <left>Useful body part</left>
+    <right>Useless body part</right>
+  </card>
+  <card>
+    <left>Classic</left>
+    <right>Fad</right>
+  </card>
+  <card>
+    <left>Brilliant</left>
+    <right>Stupid</right>
+  </card>
+  <card>
+    <left>Strong</left>
+    <right>Weak</right>
+  </card>
+  <card>
+    <left>Useful invention</left>
+    <right>Useless invention</right>
+  </card>
+  <card>
+    <left>Conservative</left>
+    <right>Liberal</right>
+  </card>
+  <card>
+    <left>Popular</left>
+    <right>Unpopular</right>
+  </card>
+  <card>
+    <left>Enemy</left>
+    <right>Friend</right>
+  </card>
+  <card>
+    <left>Exciting</left>
+    <right>Boring</right>
+  </card>
+  <card>
+    <left>Smelly in a good way</left>
+    <right>Smelly in a bad way</right>
+  </card>
+  <card>
+    <left>Hero</left>
+    <right>Villain</right>
+  </card>
+  <card>
+    <left>Overrated thing to do</left>
+    <right>Underrated thing to do</right>
+  </card>
+  <card>
+    <left>Useful in an emergency</left>
+    <right>Useless in an emergency</right>
+  </card>
+  <card>
+    <left>For adults</left>
+    <right>For kids</right>
+  </card>
+  <card>
+    <left>Hard to do</left>
+    <right>Easy to do</right>
+  </card>
+  <card>
+    <left>Priceless</left>
+    <right>Worthless</right>
+  </card>
+  <card>
+    <left>Nurture</left>
+    <right>Nature</right>
+  </card>
+  <card>
+    <left>Democracy</left>
+    <right>Dictatorship</right>
+  </card>
+  <card>
+    <left>Weird greeting</left>
+    <right>Normal greeting</right>
+  </card>
+  <card>
+    <left>Cat name</left>
+    <right>Dog name</right>
+  </card>
+  <card>
+    <left>Partisan</left>
+    <right>Non-partisan</right>
+  </card>
+  <card>
+    <left>Infinite</left>
+    <right>Limited</right>
+  </card>
+  <card>
+    <left>Formal event</left>
+    <right>Casual event</right>
+  </card>
+  <card>
+    <left>Good investment</left>
+    <right>Bad investment</right>
+  </card>
+  <card>
+    <left>Heavy topic</left>
+    <right>Small talk</right>
+  </card>
+  <card>
+    <left>Spicy</left>
+    <right>Mild</right>
+  </card>
+  <card>
+    <left>Sacrilegious</left>
+    <right>Religious</right>
+  </card>
+  <card>
+    <left>Art</left>
+    <right>Not art</right>
+  </card>
+  <card>
+    <left>Prohibited</left>
+    <right>Illegal</right>
+  </card>
+  <card>
+    <left>Elitist</left>
+    <right>Popular</right>
+  </card>
+  <card>
+    <left>In control</left>
+    <right>Out of control</right>
+  </card>
+  <card>
+    <left>Loud</left>
+    <right>Quiet</right>
+  </card>
+  <card>
+    <left>Public knowledge</left>
+    <right>Secret</right>
+  </card>
+  <card>
+    <left>Too big</left>
+    <right>Too small</right>
+  </card>
+  <card>
+    <left>Long</left>
+    <right>Short</right>
+  </card>
+  <card>
+    <left>Best year in history</left>
+    <right>Worst year in history</right>
+  </card>
+  <card>
+    <left>Capitalist</left>
+    <right>Socialist</right>
+  </card>
+  <card>
+    <left>Well known fact</left>
+    <right>Little known fact</right>
+  </card>
+  <card>
+    <left>Mobile</left>
+    <right>Stationary</right>
+  </card>
+  <card>
+    <left>Global issue</left>
+    <right>Local issue</right>
+  </card>
+  <card>
+    <left>Skill</left>
+    <right>Talent</right>
+  </card>
+  <card>
+    <left>Best era to time travel</left>
+    <right>Worst era to time travel</right>
+  </card>
+  <card>
+    <left>The best</left>
+    <right>The worst</right>
+  </card>
+  <card>
+    <left>Large number</left>
+    <right>Small number</right>
+  </card>
+  <card>
+    <left>`False</left>
+    <right>`True</right>
+  </card>
+  <card>
+    <left>Avant garde</left>
+    <right>Old fashioned</right>
+  </card>
+  <card>
+    <left>Beautiful word</left>
+    <right>Ugly word</right>
+  </card>
+  <card>
+    <left>Tiny</left>
+    <right>Small</right>
+  </card>
+  <card>
+    <left>Natural</left>
+    <right>Unnatural</right>
+  </card>
+  <card>
+    <left>Phony</left>
+    <right>Genuine</right>
+  </card>
+  <card>
+    <left>Original</left>
+    <right>Derivative</right>
+  </card>
+  <card>
+    <left>Sexy color</left>
+    <right>Unsexy color</right>
+  </card>
+  <card>
+    <left>Benefits everyone</left>
+    <right>Benefits you</right>
+  </card>
+  <card>
+    <left>Powerful</left>
+    <right>Powerless</right>
+  </card>
+  <card>
+    <left>Vapes</left>
+    <right>Doesn’t vape</right>
+  </card>
+  <card>
+    <left>Vegetable</left>
+    <right>Fruit</right>
+  </card>
+  <card>
+    <left>Pseudoscience</left>
+    <right>Science</right>
+  </card>
+  <card>
+    <left>Serious topic</left>
+    <right>Funny topic</right>
+  </card>
+  <card>
+    <left>Firm</left>
+    <right>Limp</right>
+  </card>
+  <card>
+    <left>News</left>
+    <right>Gossip</right>
+  </card>
+  <card>
+    <left>Easy to sit on</left>
+    <right>Hard to sit on</right>
+  </card>
+  <card>
+    <left>Too much</left>
+    <right>Not enough</right>
+  </card>
+  <card>
+    <left>Vertical</left>
+    <right>Horizontal</right>
+  </card>
+  <card>
+    <left>Scented</left>
+    <right>Unscented</right>
+  </card>
+  <card>
+    <left>Not huggable</left>
+    <right>Huggable</right>
+  </card>
+  <card>
+    <left>Homogenous</left>
+    <right>Heterogeneous</right>
+  </card>
+  <card>
+    <left>Exclusive</left>
+    <right>Inclusive</right>
+  </card>
+  <card>
+    <left>Good dog breed</left>
+    <right>Bad dog breed</right>
+  </card>
+  <card>
+    <left>Commerce</left>
+    <right>Art</right>
+  </card>
+  <card>
+    <left>Pop icon</left>
+    <right>One hit wonder</right>
+  </card>
+  <card>
+    <left>Good advice</left>
+    <right>Bad advice</right>
+  </card>
+  <card>
+    <left>Good candy</left>
+    <right>Bad candy- licorice</right>
+  </card>
+  <card>
+    <left>Radical</left>
+    <right>Traditional</right>
+  </card>
+  <card>
+    <left>Good mouthfeel</left>
+    <right>Bad mouthfeel</right>
+  </card>
+  <card>
+    <left>Legal</left>
+    <right>Illegal</right>
+  </card>
+  <card>
+    <left>Shallow</left>
+    <right>Deep</right>
+  </card>
+  <card>
+    <left>Always on time</left>
+    <right>Never on time</right>
+  </card>
+  <card>
+    <left>Strange</left>
+    <right>Weird</right>
+  </card>
+  <card>
+    <left>Infamous</left>
+    <right>Famous</right>
+  </card>
+  <card>
+    <left>Fun</left>
+    <right>Boring</right>
+  </card>
+  <card>
+    <left>Overrated</left>
+    <right>Underrated</right>
+  </card>
+  <card>
+    <left>Best chore</left>
+    <right>Worst chore</right>
+  </card>
+  <card>
+    <left>Overpopulated</left>
+    <right>Endangered</right>
+  </card>
+  <card>
+    <left>Green</left>
+    <right>Blue</right>
+  </card>
+  <card>
+    <left>Terrifying</left>
+    <right>Thrilling</right>
+  </card>
+  <card>
+    <left>Unexpected</left>
+    <right>Expected</right>
+  </card>
+  <card>
+    <left>Strong</left>
+    <right>Weak</right>
+  </card>
+  <card>
+    <left>Overrated</left>
+    <right>Underrated</right>
+  </card>
+</cards>

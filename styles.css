@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+#card {
+  display: flex;
+  width: 80%;
+  max-width: 600px;
+  height: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+}
+
+.arrow {
+  font-size: 30px; /* Increase the size */
+  color: rgba(255, 255, 255, 0.9); /* Keep the color slightly opaque */
+  position: absolute;
+  top: 20px; /* Move it higher on the card */
+}
+
+/* Dynamic colors */
+.color1 {
+  background-color: #034f84;
+}
+
+.color2 {
+  background-color: #92a8d1;
+}
+
+.color3 {
+  background-color: #f7786b;
+}
+
+.color4 {
+  background-color: #c94c4c;
+}
+
+.color5 {
+  background-color: #622569;
+}
+
+.color6 {
+  background-color: #b8a9c9;
+}
