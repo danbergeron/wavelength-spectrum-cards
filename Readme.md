@@ -6,10 +6,6 @@ Spectrum Cards is a digital companion to the **Wavelength** board game. Whether 
 
 **Wavelength** is a party game where players guess the position of a hidden target along a spectrum (e.g., “Hot vs. Cold” or “Common vs. Rare”). It’s a fun and engaging way to spark conversations and challenge your perception of concepts.
 
-## 🃏 About Spectrum Cards
-
-This app provides randomized digital Spectrum cards with dynamic color changes, making it an easy replacement for the physical cards. No more worries about losing your cards—just open the app and start playing!
-
 ## 📜 Card List
 
 Want to preview or view the full list of Spectrum cards available in the app? You can access the card data directly at this link:  
