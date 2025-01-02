@@ -30,10 +30,10 @@ body {
 
 #card {
   display: flex;
-  width: 85%; /* Default width for most cases */
+  width: 90%; /* Default width for mobile */
   max-width: 800px; /* Limit max size on large screens */
-  height: 30%; /* Default height */
-  max-height: 300px; /* Limit max height */
+  height: 40%; /* Default height for readability */
+  max-height: 400px; /* Limit max height */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -93,14 +93,14 @@ body {
 @media (max-width: 393px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
-    height: 40%; /* Taller cards for readability */
+    height: 45%; /* Taller cards for readability */
   }
 
   .side {
     font-size: clamp(
-      20px,
+      22px,
       5vw,
-      38px
+      40px
     ); /* Larger font size for better readability */
   }
 
@@ -110,17 +110,17 @@ body {
 }
 
 /* iPhone 16 Pro Landscape */
-@media (max-width: 393px) and (orientation: landscape) {
+@media (max-width: 853px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
-    height: 38%; /* Taller cards in landscape mode */
+    height: 50%; /* Taller cards in landscape mode */
   }
 
   .side {
-    font-size: clamp(18px, 4vw, 34px); /* Adjusted font size */
+    font-size: clamp(20px, 4vw, 38px); /* Adjusted font size */
   }
 
   .arrow {
-    font-size: clamp(20px, 5vw, 38px); /* Balanced arrow size */
+    font-size: clamp(22px, 5vw, 38px); /* Balanced arrow size */
   }
 }
