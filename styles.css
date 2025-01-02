@@ -1,5 +1,5 @@
 :root {
-  background-color: #ffffff; /* Root-level background to prevent default colors */
+  --background-color: #ffffff; /* Light mode background color */
 }
 
 html,
@@ -11,7 +11,9 @@ body {
   height: 100%; /* Ensure the viewport covers full height */
   min-height: 100dvh; /* Ensure full viewport height coverage */
   min-width: 100vw; /* Ensure full viewport width coverage */
-  background-color: #ffffff !important; /* Force background to white */
+  background-color: var(
+    --background-color
+  ) !important; /* Dynamic background color */
   -webkit-touch-callout: none; /* Prevent context menu on long press */
   -webkit-user-select: none; /* Prevent text selection */
   -ms-user-select: none; /* Prevent text selection */
@@ -141,5 +143,11 @@ body {
 
   .arrow {
     font-size: clamp(22px, 5vw, 38px); /* Balanced arrow size */
+  }
+}
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000; /* Dark mode background color */
   }
 }
