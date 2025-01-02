@@ -96,7 +96,7 @@ body {
 @media (max-width: 393px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
-    height: 25%; /* Taller cards for readability */
+    height: 25% !important; /* Taller cards for readability */
   }
 
   .side {
@@ -113,10 +113,10 @@ body {
 }
 
 /* Media Query: Landscape Mode (iPhone 16 Pro) */
-@media (max-width: 852px) and (orientation: landscape) {
+@media (min-width: 394px) and (max-width: 852px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
-    height: 70%; /* Significantly taller cards in landscape mode */
+    height: 65% !important; /* Significantly taller cards in landscape mode */
   }
 
   .side {
