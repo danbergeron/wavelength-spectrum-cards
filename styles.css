@@ -90,10 +90,10 @@ body {
 }
 
 /* iPhone 16 Pro Portrait */
-@media (max-width: 393px) and (orientation: portrait) {
+@media (max-width: 394px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
-    height: 45%; /* Taller cards for readability */
+    height: 25%; /* Taller cards for readability */
   }
 
   .side {
@@ -113,7 +113,7 @@ body {
 @media (max-width: 853px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
-    height: 50%; /* Taller cards in landscape mode */
+    height: 65%; /* Taller cards in landscape mode */
   }
 
   .side {
