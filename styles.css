@@ -1,5 +1,5 @@
 :root {
-  background-color: #ffffff;
+  background-color: #ffffff; /* Root-level background to prevent default colors */
 }
 
 html,
@@ -11,14 +11,14 @@ body {
   height: 100%; /* Ensure the viewport covers full height */
   min-height: 100vh; /* Ensure full viewport height coverage */
   min-width: 100vw; /* Ensure full viewport width coverage */
-  background-color: #ffffff; /* Explicitly set the background color to white */
+  background-color: #ffffff !important; /* Force background to white */
   -webkit-touch-callout: none; /* Prevent context menu on long press */
   -webkit-user-select: none; /* Prevent text selection */
   -ms-user-select: none; /* Prevent text selection */
   user-select: none; /* Prevent text selection */
   position: fixed; /* Fix position to prevent gaps during orientation changes */
-  top: 0; /* Ensure alignment from top edge */
-  left: 0; /* Ensure alignment from left edge */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
 }
 
 body {
@@ -28,11 +28,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* The card container */
 #card {
   display: flex;
-  width: 90%; /* Default width for mobile */
+  width: 85%; /* Default width */
   max-width: 800px; /* Limit max size on large screens */
-  height: 40%; /* Default height for readability */
+  height: 35%; /* Default height */
   max-height: 400px; /* Limit max height */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -41,6 +42,7 @@ body {
   user-select: none; /* Prevent text selection on the card */
 }
 
+/* Individual sides of the card */
 .side {
   display: flex;
   flex-direction: column;
@@ -57,6 +59,7 @@ body {
   overflow: hidden; /* Prevent content overflow */
 }
 
+/* Arrow styles */
 .arrow {
   font-size: clamp(20px, 4vw, 40px); /* Balanced arrow size */
   color: rgba(255, 255, 255, 0.9); /* Keep the color slightly opaque */
@@ -89,11 +92,11 @@ body {
   background-color: #b8a9c9;
 }
 
-/* iPhone 16 Pro Portrait */
-@media (max-width: 394px) and (orientation: portrait) {
+/* Media Query: Portrait Mode (iPhone 16 Pro) */
+@media (max-width: 393px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
-    height: 25%; /* Taller cards for readability */
+    height: 50%; /* Taller cards for readability */
   }
 
   .side {
@@ -109,11 +112,11 @@ body {
   }
 }
 
-/* iPhone 16 Pro Landscape */
-@media (max-width: 853px) and (orientation: landscape) {
+/* Media Query: Landscape Mode (iPhone 16 Pro) */
+@media (max-width: 852px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
-    height: 65%; /* Taller cards in landscape mode */
+    height: 60%; /* Significantly taller cards in landscape mode */
   }
 
   .side {
@@ -123,4 +126,10 @@ body {
   .arrow {
     font-size: clamp(22px, 5vw, 38px); /* Balanced arrow size */
   }
+}
+
+/* Forcing white background everywhere to eliminate blue bars */
+* {
+  background-color: #ffffff !important; /* Force white background */
+  box-sizing: border-box; /* Standardize box model */
 }
