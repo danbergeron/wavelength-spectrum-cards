@@ -154,7 +154,7 @@
   </card>
   <card>
     <left>Overrated actor </left>
-    <right>Underrated actor-</right>
+    <right>Underrated actor</right>
   </card>
   <card>
     <left>Easy to find</left>
@@ -195,6 +195,10 @@
   <card>
     <left>Exotic pet</left>
     <right>Normal pet</right>
+  </card>
+    <card>
+    <left>Good Pet</left>
+    <right>Bad Pet</right>
   </card>
   <card>
     <left>Extrovert</left>
@@ -385,7 +389,7 @@
     <right>Unsexy </right>
   </card>
   <card>
-    <left>Hard subject -  Physics</left>
+    <left>Hard subject</left>
     <right>Easy subject</right>
   </card>
   <card>
@@ -475,6 +479,18 @@
   <card>
     <left>Game</left>
     <right>Sport</right>
+  </card>
+    <card>
+    <left>Overrated Game</left>
+    <right>Underrated Game</right>
+  </card>
+      <card>
+    <left>Order of the Phoenix</left>
+    <right>Death Eaters</right>
+  </card>
+        <card>
+    <left>Jedi</left>
+    <right>Sith</right>
   </card>
   <card>
     <left>Cool</left>
@@ -624,9 +640,25 @@
     <left>Hero</left>
     <right>Villain</right>
   </card>
+    <card>
+    <left>Can't afford to lose</left>
+    <right>Want to loose</right>
+  </card>
+      <card>
+    <left>Necessary habit</left>
+    <right>Unnecessary habit</right>
+  </card>
+    <card>
+    <left>Impressive Hero</left>
+    <right>Pathetic Hero</right>
+  </card>
   <card>
     <left>Overrated thing to do</left>
     <right>Underrated thing to do</right>
+  </card>
+    <card>
+    <left>Useful Tech</left>
+    <right>Useless Tech</right>
   </card>
   <card>
     <left>Useful in an emergency</left>
@@ -757,8 +789,8 @@
     <right>Small number</right>
   </card>
   <card>
-    <left>`False</left>
-    <right>`True</right>
+    <left>False</left>
+    <right>True</right>
   </card>
   <card>
     <left>Avant garde</left>
@@ -785,20 +817,12 @@
     <right>Derivative</right>
   </card>
   <card>
-    <left>Sexy color</left>
-    <right>Unsexy color</right>
-  </card>
-  <card>
     <left>Benefits everyone</left>
     <right>Benefits you</right>
   </card>
   <card>
     <left>Powerful</left>
     <right>Powerless</right>
-  </card>
-  <card>
-    <left>Vapes</left>
-    <right>Doesn’t vape</right>
   </card>
   <card>
     <left>Vegetable</left>
@@ -866,7 +890,7 @@
   </card>
   <card>
     <left>Good candy</left>
-    <right>Bad candy- licorice</right>
+    <right>Bad candy</right>
   </card>
   <card>
     <left>Radical</left>
@@ -918,7 +942,7 @@
   </card>
   <card>
     <left>Terrifying</left>
-    <right>Thrilling</right>
+    <right>Soothing</right>
   </card>
   <card>
     <left>Unexpected</left>
@@ -931,5 +955,13 @@
   <card>
     <left>Overrated</left>
     <right>Underrated</right>
+  </card>
+    <card>
+    <left>Good Website</left>
+    <right>Bad Website</right>
+  </card>
+      <card>
+    <left>Romantic Movie</left>
+    <right>Unromantic Movie</right>
   </card>
 </cards>
