@@ -1,4 +1,4 @@
-# Spectrum Cards
+# Spectrum Cards: A Wavelength companion app.
 
 Spectrum Cards is a digital companion to the **Wavelength** board game. Whether you’ve lost your physical Spectrum cards or forgotten them, this app is the perfect solution to keep the game going without missing a beat.
 
