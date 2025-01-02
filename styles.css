@@ -96,12 +96,12 @@ body {
 @media (max-width: 393px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
-    height: 50%; /* Taller cards for readability */
+    height: 25%; /* Taller cards for readability */
   }
 
   .side {
     font-size: clamp(
-      22px,
+      20px,
       5vw,
       40px
     ); /* Larger font size for better readability */
@@ -116,20 +116,14 @@ body {
 @media (max-width: 852px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
-    height: 60%; /* Significantly taller cards in landscape mode */
+    height: 70%; /* Significantly taller cards in landscape mode */
   }
 
   .side {
-    font-size: clamp(20px, 4vw, 38px); /* Adjusted font size */
+    font-size: clamp(18px, 4vw, 30px); /* Adjusted font size */
   }
 
   .arrow {
     font-size: clamp(22px, 5vw, 38px); /* Balanced arrow size */
   }
-}
-
-/* Forcing white background everywhere to eliminate blue bars */
-* {
-  background-color: #ffffff !important; /* Force white background */
-  box-sizing: border-box; /* Standardize box model */
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = "spectrum-cards-v1.01";
+const CACHE_NAME = "spectrum-cards-v1.02";
 const urlsToCache = [
   "/",
   "/index.html",
