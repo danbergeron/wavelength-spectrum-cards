@@ -21,10 +21,6 @@
     <right>Hot</right>
   </card>
   <card>
-    <left>Weird</left>
-    <right>Normal</right>
-  </card>
-  <card>
     <left>Colorful</left>
     <right>Colorless</right>
   </card>
@@ -49,10 +45,6 @@
     <right>Underrated weapon</right>
   </card>
   <card>
-    <left>Common</left>
-    <right>Rare</right>
-  </card>
-  <card>
     <left>Hard subject </left>
     <right>Easy subject</right>
   </card>
@@ -65,8 +57,12 @@
     <right>Difficult to use</right>
   </card>
   <card>
-    <left>Wired</left>
+    <left>Strange</left>
     <right>Normal</right>
+  </card>
+    <card>
+    <left>Stranger Things</left>
+    <right>Normal Things</right>
   </card>
   <card>
     <left>Clean</left>
@@ -202,7 +198,7 @@
   </card>
   <card>
     <left>Exotic pet</left>
-    <right>Normal pet</right>
+    <right>Common pet</right>
   </card>
     <card>
     <left>Good Pet</left>
@@ -277,10 +273,6 @@
     <right>Hot</right>
   </card>
   <card>
-    <left>Weird</left>
-    <right>Normal</right>
-  </card>
-  <card>
     <left>Colorful</left>
     <right>Colorless</right>
   </card>
@@ -305,10 +297,6 @@
     <right>Underrated weapon</right>
   </card>
   <card>
-    <left>Common</left>
-    <right>Rare</right>
-  </card>
-  <card>
     <left>Sexy</left>
     <right>Unsexy </right>
   </card>
@@ -327,10 +315,6 @@
   <card>
     <left>Wired</left>
     <right>Tired</right>
-  </card>
-  <card>
-    <left>Clean</left>
-    <right>Dirty</right>
   </card>
   <card>
     <left>Requires skill</left>
@@ -361,10 +345,6 @@
     <right>Hot</right>
   </card>
   <card>
-    <left>Weird</left>
-    <right>Normal</right>
-  </card>
-  <card>
     <left>Colorful</left>
     <right>Colorless</right>
   </card>
@@ -385,12 +365,12 @@
     <right>Cheap</right>
   </card>
   <card>
-    <left>Common</left>
-    <right>Rare</right>
+    <left>Abundant</left>
+    <right>Scarce</right>
   </card>
-  <card>
-    <left>Sexy</left>
-    <right>Unsexy </right>
+    <card>
+    <left>Common</left>
+    <right>Ulta rare</right>
   </card>
   <card>
     <left>Hard subject</left>
@@ -409,12 +389,8 @@
     <right>Tired</right>
   </card>
   <card>
-    <left>Clean</left>
-    <right>Dirty</right>
-  </card>
-  <card>
-    <left>Requires skill</left>
-    <right>Requires luck</right>
+    <left>Skill-based</left>
+    <right>Luck-based</right>
   </card>
   <card>
     <left>Flavorful</left>
@@ -431,10 +407,6 @@
   <card>
     <left>Cold</left>
     <right>Hot</right>
-  </card>
-  <card>
-    <left>Weird</left>
-    <right>Normal</right>
   </card>
   <card>
     <left>Colorful</left>
@@ -525,10 +497,6 @@
     <right>Unfashionable</right>
   </card>
   <card>
-    <left>Terrorist</left>
-    <right>Freedom fighter</right>
-  </card>
-  <card>
     <left>Forgiveable</left>
     <right>Unforgiveable</right>
   </card>
@@ -597,8 +565,8 @@
     <right>Bad TV show</right>
   </card>
   <card>
-    <left>Traditionally feminine</left>
-    <right>Traditionally masculine</right>
+    <left>Feminine</left>
+    <right>Masculine</right>
   </card>
   <card>
     <left>Useful body part</left>
@@ -687,10 +655,6 @@
   <card>
     <left>Democracy</left>
     <right>Dictatorship</right>
-  </card>
-  <card>
-    <left>Weird greeting</left>
-    <right>Normal greeting</right>
   </card>
   <card>
     <left>Cat name</left>
