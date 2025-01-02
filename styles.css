@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden; /* Prevent scrolling */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,9 +11,10 @@ body {
 
 #card {
   display: flex;
-  width: 80%;
-  max-width: 600px;
-  height: 200px;
+  width: 80%; /* Default width for most cases */
+  max-width: 800px; /* Limit max size */
+  height: 25%; /* Adjust height for responsiveness */
+  max-height: 300px; /* Limit max height */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -26,17 +28,21 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+  padding: 20px;
   color: #fff;
   font-weight: bold;
-  font-size: 24px;
+  font-size: clamp(16px, 2vw, 32px); /* Responsive font size */
+  text-align: center;
   position: relative;
+  word-wrap: break-word; /* Ensure text wraps instead of overflowing */
+  overflow: hidden; /* Prevent content overflow */
 }
 
 .arrow {
-  font-size: 30px; /* Increase the size */
+  font-size: clamp(18px, 2vw, 36px); /* Responsive arrow size */
   color: rgba(255, 255, 255, 0.9); /* Keep the color slightly opaque */
   position: absolute;
-  top: 20px; /* Move it higher on the card */
+  top: 10px; /* Adjust arrow position */
 }
 
 /* Dynamic colors */
@@ -62,4 +68,38 @@ body {
 
 .color6 {
   background-color: #b8a9c9;
+}
+
+/* Responsive Design for Landscape Mobile or Short Viewports */
+@media (max-width: 900px) and (max-height: 500px) {
+  #card {
+    width: 95%; /* Use more of the screen width */
+    height: 40%; /* Increase height to balance proportions */
+  }
+
+  .side {
+    font-size: clamp(14px, 3vw, 28px); /* Adjust font size for narrow height */
+    padding: 15px; /* Slightly less padding */
+  }
+
+  .arrow {
+    font-size: clamp(16px, 3vw, 24px); /* Smaller arrow size */
+    top: 8px; /* Adjust arrow position */
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+  #card {
+    width: 90%; /* Keep full width in portrait */
+    height: 30%;
+  }
+
+  .side {
+    font-size: clamp(16px, 4vw, 28px); /* Slightly smaller font for portrait */
+  }
+
+  .arrow {
+    font-size: clamp(20px, 4vw, 30px); /* Slightly larger arrows for portrait */
+  }
 }
