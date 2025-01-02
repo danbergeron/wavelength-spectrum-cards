@@ -10,6 +10,11 @@ Spectrum Cards is a digital companion to the **Wavelength** board game. Whether 
 
 This app provides randomized digital Spectrum cards with dynamic color changes, making it an easy replacement for the physical cards. No more worries about losing your cards—just open the app and start playing!
 
+## 📜 Card List
+
+Want to preview or view the full list of Spectrum cards available in the app? You can access the card data directly at this link:  
+[View Spectrum Cards List](https://spectrumcards.netlify.app/specdrumcardslist.xml)
+
 ## 🚀 Features
 - **Digital Spectrum Cards**: Access randomized spectrum cards instantly.
 - **Perfect for Any Device**: Responsive design for desktops, tablets, and smartphones.
