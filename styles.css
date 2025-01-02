@@ -9,7 +9,7 @@ body {
   overflow: hidden; /* Prevent scrolling */
   width: 100%; /* Ensure the viewport covers full width */
   height: 100%; /* Ensure the viewport covers full height */
-  min-height: 100vh; /* Ensure full viewport height coverage */
+  min-height: 100dvh; /* Ensure full viewport height coverage */
   min-width: 100vw; /* Ensure full viewport width coverage */
   background-color: #ffffff !important; /* Force background to white */
   -webkit-touch-callout: none; /* Prevent context menu on long press */
