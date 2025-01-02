@@ -1,11 +1,16 @@
+html,
 body {
   margin: 0;
+  padding: 0;
   overflow: hidden; /* Prevent scrolling */
+  height: 100%;
+  background-color: #ffffff; /* Set the background color to white */
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: #ffffff; /* Set the background to white */
   font-family: Arial, sans-serif;
 }
 
@@ -85,21 +90,5 @@ body {
   .arrow {
     font-size: clamp(16px, 3vw, 24px); /* Adjust arrow size */
     top: 8px; /* Adjust arrow position */
-  }
-}
-
-/* Mobile Portrait */
-@media (max-width: 768px) and (orientation: portrait) {
-  #card {
-    width: 90%; /* Keep full width in portrait */
-    height: 30%;
-  }
-
-  .side {
-    font-size: clamp(16px, 4vw, 28px); /* Adjust font size */
-  }
-
-  .arrow {
-    font-size: clamp(20px, 4vw, 30px); /* Slightly larger arrows for portrait */
   }
 }
