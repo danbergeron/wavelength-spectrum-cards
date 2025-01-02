@@ -2,9 +2,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevent scrolling */
-  height: 100%;
-  background-color: #ffffff; /* Set the background color to white */
+  overflow: hidden; /* Prevent scrolling or overflow */
+  height: 100%; /* Ensure the viewport fills fully */
+  background-color: #ffffff; /* Set the background color to white explicitly */
+  -webkit-touch-callout: none; /* Prevent context menu on long press */
+  -webkit-user-select: none; /* Prevent text selection */
+  -ms-user-select: none; /* Prevent text selection */
+  user-select: none; /* Prevent text selection */
 }
 
 body {
@@ -24,7 +28,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  user-select: none;
+  user-select: none; /* Prevent text selection on the card */
 }
 
 .side {
@@ -90,5 +94,21 @@ body {
   .arrow {
     font-size: clamp(16px, 3vw, 24px); /* Adjust arrow size */
     top: 8px; /* Adjust arrow position */
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+  #card {
+    width: 90%; /* Keep full width in portrait */
+    height: 30%;
+  }
+
+  .side {
+    font-size: clamp(16px, 4vw, 28px); /* Adjust font size */
+  }
+
+  .arrow {
+    font-size: clamp(20px, 4vw, 30px); /* Slightly larger arrows for portrait */
   }
 }
