@@ -32,7 +32,7 @@ body {
   display: flex;
   width: 85%; /* Default width for most cases */
   max-width: 800px; /* Limit max size on large screens */
-  height: 30%; /* Adjust height for responsiveness */
+  height: 30%; /* Default height */
   max-height: 300px; /* Limit max height */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -50,7 +50,7 @@ body {
   padding: 20px;
   color: #fff;
   font-weight: bold;
-  font-size: clamp(16px, 2vw, 32px); /* Responsive font size */
+  font-size: clamp(18px, 3vw, 36px); /* Balanced responsive font size */
   text-align: center;
   position: relative;
   word-wrap: break-word; /* Prevent text overflow */
@@ -58,7 +58,7 @@ body {
 }
 
 .arrow {
-  font-size: clamp(18px, 2vw, 36px); /* Responsive arrow size */
+  font-size: clamp(20px, 4vw, 40px); /* Balanced arrow size */
   color: rgba(255, 255, 255, 0.9); /* Keep the color slightly opaque */
   position: absolute;
   top: 10px; /* Adjust arrow position */
@@ -89,34 +89,38 @@ body {
   background-color: #b8a9c9;
 }
 
-/* Mobile Portrait */
-@media (max-width: 768px) and (orientation: portrait) {
+/* iPhone 16 Pro Portrait */
+@media (max-width: 393px) and (orientation: portrait) {
   #card {
-    width: 90%; /* Slightly wider cards in portrait mode */
-    height: 40%; /* Taller cards for better proportions */
+    width: 95%; /* Slightly wider cards in portrait mode */
+    height: 40%; /* Taller cards for readability */
   }
 
   .side {
-    font-size: clamp(20px, 5vw, 36px); /* Larger font size in portrait */
+    font-size: clamp(
+      20px,
+      5vw,
+      38px
+    ); /* Larger font size for better readability */
   }
 
   .arrow {
-    font-size: clamp(24px, 6vw, 40px); /* Slightly larger arrows */
+    font-size: clamp(24px, 6vw, 42px); /* Slightly larger arrows */
   }
 }
 
-/* Mobile Landscape */
-@media (max-width: 900px) and (orientation: landscape) {
+/* iPhone 16 Pro Landscape */
+@media (max-width: 393px) and (orientation: landscape) {
   #card {
-    width: 95%; /* Use most of the screen width */
-    height: 40%; /* Make cards taller in landscape mode */
+    width: 90%; /* Use most of the screen width */
+    height: 38%; /* Taller cards in landscape mode */
   }
 
   .side {
-    font-size: clamp(18px, 4vw, 32px); /* Slightly larger font size */
+    font-size: clamp(18px, 4vw, 34px); /* Adjusted font size */
   }
 
   .arrow {
-    font-size: clamp(20px, 5vw, 36px); /* Larger arrow size */
+    font-size: clamp(20px, 5vw, 38px); /* Balanced arrow size */
   }
 }
