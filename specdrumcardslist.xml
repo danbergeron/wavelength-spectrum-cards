@@ -4,6 +4,14 @@
     <left>Good</left>
     <right>Bad</right>
   </card>
+    <card>
+    <left>Great sequel</left>
+    <right>Poor sequel</right>
+  </card>
+      <card>
+    <left>Rotten Tomato</left>
+    <right>Fresh Tomato</right>
+  </card>
   <card>
     <left>Highly addictive</left>
     <right>Mildly addictive</right>
@@ -377,10 +385,6 @@
     <right>Cheap</right>
   </card>
   <card>
-    <left>Overrated weapon</left>
-    <right>Underrated weapon</right>
-  </card>
-  <card>
     <left>Common</left>
     <right>Rare</right>
   </card>
@@ -545,8 +549,8 @@
     <right>Useless</right>
   </card>
   <card>
-    <left>art</left>
-    <right>Movie that Godzilla would ruin</right>
+    <left>Art</left>
+    <right>Science</right>
   </card>
   <card>
     <left>Important</left>
@@ -925,10 +929,6 @@
     <right>Boring</right>
   </card>
   <card>
-    <left>Overrated</left>
-    <right>Underrated</right>
-  </card>
-  <card>
     <left>Best chore</left>
     <right>Worst chore</right>
   </card>
@@ -947,10 +947,6 @@
   <card>
     <left>Unexpected</left>
     <right>Expected</right>
-  </card>
-  <card>
-    <left>Strong</left>
-    <right>Weak</right>
   </card>
   <card>
     <left>Overrated</left>
