@@ -7,8 +7,6 @@ Spectrum Cards is a digital companion to the **Wavelength** board game. Whether 
 You can access the app directly at this link without deploying it yourself:  
 [**Spectrum Cards on Netlify**](https://spectrumcards.netlify.app/)
 
-> **Note:** While the app supports adding to your home screen for a full-screen experience, it does not currently function offline. You will need an internet connection to use it.
-
 ![image](https://cf.geekdo-images.com/utWMg0AVSJgmiJWMengMzQ__imagepage/img/Dc7cAYPzyE2Qt32CZV3vX7N9W_U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8623166.png)
 
 ## 🎯 What is Wavelength?
