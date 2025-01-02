@@ -2,6 +2,13 @@
 
 Spectrum Cards is a digital companion to the **Wavelength** board game. Whether you’ve lost your physical Spectrum cards or forgotten them, this app is the perfect solution to keep the game going without missing a beat.
 
+## 🔗 Access the App
+
+You can access the app directly at this link without deploying it yourself:  
+[**Spectrum Cards on Netlify**](https://spectrumcards.netlify.app/)
+
+> **Note:** While the app supports adding to your home screen for a full-screen experience, it does not currently function offline. You will need an internet connection to use it.
+
 ![image](https://cf.geekdo-images.com/utWMg0AVSJgmiJWMengMzQ__imagepage/img/Dc7cAYPzyE2Qt32CZV3vX7N9W_U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8623166.png)
 
 ## 🎯 What is Wavelength?
@@ -20,13 +27,6 @@ Want to preview or view the full list of Spectrum cards available in the app? Yo
 - **No Scrolling or Interruptions**: Optimized for full-screen play with a clean interface.
 - **Full-Screen PWA Support**: Add the app to your home screen for a full-screen experience, eliminating browser toolbars and distractions.
 - **Offline Mode via PWA**: Play even without an internet connection! Thanks to Progressive Web App (PWA) capabilities, the app works seamlessly offline once installed.
-
-## 🔗 Access the App
-
-You can access the app directly at this link without deploying it yourself:  
-[**Spectrum Cards on Netlify**](https://spectrumcards.netlify.app/)
-
-> **Note:** While the app supports adding to your home screen for a full-screen experience, it does not currently function offline. You will need an internet connection to use it.
 
 ## 🌐 How Offline Mode Works
 
