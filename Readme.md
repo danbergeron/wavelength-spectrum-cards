@@ -17,6 +17,7 @@ Want to preview or view the full list of Spectrum cards available in the app? Yo
 - **Light and Dark Mode Support**: Adapts to your device’s theme for a seamless experience.
 - **No Scrolling or Interruptions**: Optimized for full-screen play with a clean interface.
 - **Full-Screen PWA Support**: Add the app to your home screen for a full-screen experience, eliminating browser toolbars and distractions.
+- **Offline Mode via PWA**: Play even without an internet connection! Thanks to Progressive Web App (PWA) capabilities, the app works seamlessly offline once installed.
 
 ## 🔗 Access the App
 
@@ -24,6 +25,16 @@ You can access the app directly at this link without deploying it yourself:
 [**Spectrum Cards on Netlify**](https://spectrumcards.netlify.app/)
 
 > **Note:** While the app supports adding to your home screen for a full-screen experience, it does not currently function offline. You will need an internet connection to use it.
+
+## 🌐 How Offline Mode Works
+
+Spectrum Cards uses a **Progressive Web App (PWA)** setup with a service worker to enable offline functionality. Once the app is loaded, all essential files are cached on your device, allowing you to play without an internet connection.
+
+### Tips to Enable Offline Mode:
+1. Open the app in your browser at [**Spectrum Cards on Netlify**](https://spectrumcards.netlify.app/).
+2. Tap the **“Share”** icon (on iOS) or the **three-dot menu** (on Android).
+3. Select **“Add to Home Screen”** from the menu options.
+4. Launch the app from your home screen. The app will now function in full-screen mode and support offline play.
 
 ## ❗ Disclaimer
 
