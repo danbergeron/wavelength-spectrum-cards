@@ -1,3 +1,10 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js")
+    .then(() => console.log("Service Worker registered"))
+    .catch((err) => console.error("Service Worker registration failed:", err));
+}
+
 let cards = []; // To store parsed card data
 let currentIndex = 0;
 let history = [];

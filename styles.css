@@ -11,9 +11,9 @@ body {
 
 #card {
   display: flex;
-  width: 80%; /* Default width for most cases */
-  max-width: 800px; /* Limit max size */
-  height: 25%; /* Adjust height for responsiveness */
+  width: 85%; /* Default width for most cases */
+  max-width: 800px; /* Limit max size on large screens */
+  height: 30%; /* Adjust height for responsiveness */
   max-height: 300px; /* Limit max height */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -34,7 +34,7 @@ body {
   font-size: clamp(16px, 2vw, 32px); /* Responsive font size */
   text-align: center;
   position: relative;
-  word-wrap: break-word; /* Ensure text wraps instead of overflowing */
+  word-wrap: break-word; /* Prevent text overflow */
   overflow: hidden; /* Prevent content overflow */
 }
 
@@ -70,20 +70,20 @@ body {
   background-color: #b8a9c9;
 }
 
-/* Responsive Design for Landscape Mobile or Short Viewports */
+/* Responsive Design for Mobile Landscape Mode */
 @media (max-width: 900px) and (max-height: 500px) {
   #card {
-    width: 95%; /* Use more of the screen width */
-    height: 40%; /* Increase height to balance proportions */
+    width: 95%; /* Use most of the screen width */
+    height: 50%; /* Increase height for better proportions */
   }
 
   .side {
-    font-size: clamp(14px, 3vw, 28px); /* Adjust font size for narrow height */
+    font-size: clamp(16px, 3vw, 28px); /* Adjust font size */
     padding: 15px; /* Slightly less padding */
   }
 
   .arrow {
-    font-size: clamp(16px, 3vw, 24px); /* Smaller arrow size */
+    font-size: clamp(16px, 3vw, 24px); /* Adjust arrow size */
     top: 8px; /* Adjust arrow position */
   }
 }
@@ -96,7 +96,7 @@ body {
   }
 
   .side {
-    font-size: clamp(16px, 4vw, 28px); /* Slightly smaller font for portrait */
+    font-size: clamp(16px, 4vw, 28px); /* Adjust font size */
   }
 
   .arrow {
