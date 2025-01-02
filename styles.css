@@ -52,7 +52,7 @@ body {
   padding: 20px;
   color: #fff;
   font-weight: bold;
-  font-size: clamp(18px, 3vw, 36px); /* Balanced responsive font size */
+  font-size: clamp(28px, 3vw, 36px); /* Balanced responsive font size */
   text-align: center;
   position: relative;
   word-wrap: break-word; /* Prevent text overflow */
