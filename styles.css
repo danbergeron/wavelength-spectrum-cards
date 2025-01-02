@@ -1,16 +1,25 @@
+/* Force all elements to have a white background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevent scrolling or overflow */
-  height: 100%; /* Ensure the viewport fills fully */
-  background-color: #ffffff; /* Set the background color to white explicitly */
+  overflow: hidden; /* Prevent scrolling */
+  width: 100%; /* Ensure the viewport covers full width */
+  height: 100%; /* Ensure the viewport covers full height */
+  background-color: #ffffff; /* Explicitly set the background color to white */
   -webkit-touch-callout: none; /* Prevent context menu on long press */
   -webkit-user-select: none; /* Prevent text selection */
   -ms-user-select: none; /* Prevent text selection */
   user-select: none; /* Prevent text selection */
 }
 
+/* Main app styling */
 body {
   display: flex;
   justify-content: center;
