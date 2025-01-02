@@ -1,10 +1,4 @@
 /* Force all elements to have a white background */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   background-color: #ffffff;
 }
@@ -16,11 +10,23 @@ body {
   overflow: hidden; /* Prevent scrolling */
   width: 100%; /* Ensure the viewport covers full width */
   height: 100%; /* Ensure the viewport covers full height */
+  min-height: 100vh; /* Ensure full viewport height coverage */
+  min-width: 100vw; /* Ensure full viewport width coverage */
   background-color: #ffffff; /* Explicitly set the background color to white */
   -webkit-touch-callout: none; /* Prevent context menu on long press */
   -webkit-user-select: none; /* Prevent text selection */
   -ms-user-select: none; /* Prevent text selection */
   user-select: none; /* Prevent text selection */
+  position: fixed; /* Fix position to prevent gaps during orientation changes */
+  top: 0; /* Ensure alignment from top edge */
+  left: 0; /* Ensure alignment from left edge */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
 }
 
 /* Main app styling */
@@ -29,6 +35,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #card {
