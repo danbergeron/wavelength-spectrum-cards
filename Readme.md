@@ -25,10 +25,6 @@ You can access the app directly at this link without deploying it yourself:
 
 > **Note:** While the app supports adding to your home screen for a full-screen experience, it does not currently function offline. You will need an internet connection to use it.
 
-## 📖 Why Use Spectrum Cards?
-
-Lost your physical Spectrum cards? Forgot them at home? Spectrum Cards ensures your **Wavelength** game can continue, hassle-free. It’s designed to complement the physical game while offering a digital alternative for players on the go.
-
 ## ❗ Disclaimer
 
 Spectrum Cards is **not affiliated with CMYK Games**, the publishers of Wavelength. This is a fan-made project designed to enhance the Wavelength experience.
