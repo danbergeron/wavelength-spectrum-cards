@@ -1,4 +1,4 @@
-const CACHE_NAME = "spectrum-cards-v1.110";
+const CACHE_NAME = "spectrum-cards-v1.12";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -7,6 +7,7 @@ const urlsToCache = [
   "/manifest.json",
   "/icon-192x192.png",
   "/icon-512x512.png",
+  "specdrumcardslist.xml",
 ];
 
 self.addEventListener("install", (event) => {
