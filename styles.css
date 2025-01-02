@@ -112,6 +112,26 @@ body {
   }
 }
 
+/* Media Query: Portrait Mode (iPhone 16 Pro) */
+@media (min-width: 414px) and (max-width: 414px) and (orientation: portrait) {
+  #card {
+    width: 95%; /* Slightly wider cards in portrait mode */
+    height: 22% !important; /* Taller cards for readability */
+  }
+
+  .side {
+    font-size: clamp(
+      18px,
+      5vw,
+      28px
+    ); /* Larger font size for better readability */
+  }
+
+  .arrow {
+    font-size: clamp(24px, 6vw, 42px); /* Slightly larger arrows */
+  }
+}
+
 /* Media Query: Landscape Mode (iPhone 16 Pro) */
 @media (min-width: 394px) and (max-width: 852px) and (orientation: landscape) {
   #card {
