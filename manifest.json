@@ -1,10 +1,10 @@
 {
   "name": "Spectrum Cards",
   "short_name": "Spectrum",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f7f7",
-  "theme_color": "#034f84",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "icon-192x192.png",
