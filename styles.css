@@ -93,7 +93,7 @@ body {
 }
 
 /* Media Query: Portrait Mode (iPhone 16 Pro) */
-@media (max-width: 393px) and (orientation: portrait) {
+@media (max-width: 412px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
     height: 25% !important; /* Taller cards for readability */
@@ -113,18 +113,14 @@ body {
 }
 
 /* Media Query: Portrait Mode (iPhone 16 Pro) */
-@media (min-width: 414px) and (max-width: 414px) and (orientation: portrait) {
+@media (min-width: 413px) and (max-width: 414px) and (orientation: portrait) {
   #card {
     width: 95%; /* Slightly wider cards in portrait mode */
     height: 22% !important; /* Taller cards for readability */
   }
 
   .side {
-    font-size: clamp(
-      18px,
-      5vw,
-      28px
-    ); /* Larger font size for better readability */
+    font-size: clamp(21px, 4vw, 32px); /* Adjusted font size */
   }
 
   .arrow {
@@ -133,7 +129,7 @@ body {
 }
 
 /* Media Query: Landscape Mode (iPhone 16 Pro) */
-@media (min-width: 394px) and (max-width: 852px) and (orientation: landscape) {
+@media (min-width: 415px) and (max-width: 852px) and (orientation: landscape) {
   #card {
     width: 90%; /* Use most of the screen width */
     height: 65% !important; /* Significantly taller cards in landscape mode */
