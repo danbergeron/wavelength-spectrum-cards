@@ -12,7 +12,7 @@ You can access the app directly at this link without deploying it yourself:  [**
 
 **Wavelength** is a party game where players guess the position of a hidden target along a spectrum (e.g., “Hot vs. Cold” or “Common vs. Rare”). It’s a fun and engaging way to spark conversations and challenge your perception of concepts.
 
-![image](https://www.whitcoulls.co.nz/content/products/6753207_50.jpg](https://cf.geekdo-images.com/gK-TD54H-WpkcbmpHr9T9A__imagepage/img/4-GP6qZtDOtQh-h3R0dyyoQi1uA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8632814.png)
+![image](https://cf.geekdo-images.com/gK-TD54H-WpkcbmpHr9T9A__imagepage/img/4-GP6qZtDOtQh-h3R0dyyoQi1uA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8632814.png)
 
 ## 📜 Card List
 
