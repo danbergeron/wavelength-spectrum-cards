@@ -11,7 +11,7 @@ You can access the app directly at this link without deploying it yourself:  [**
 
 ## 🎯 What is Wavelength?
 
-**Wavelength** is a party game where players guess the position of a hidden target along a spectrum (e.g., “Hot vs. Cold” or “Common vs. Rare”). It’s a fun and engaging way to spark conversations and challenge your perception of concepts.
+**Wavelength** is a party game where players guess the position of a hidden target along a spectrum (e.g., “Hot vs. Cold” or “Common vs. Rare”). Teams take turns rotating a dial to where they think a target is located along a spectrum. This spectrum is randomly set and hidden behind a screen.
 
 <p align="center"> <img src="https://cf.geekdo-images.com/gK-TD54H-WpkcbmpHr9T9A__imagepage/img/4-GP6qZtDOtQh-h3R0dyyoQi1uA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8632814.png"> 
 </p>
